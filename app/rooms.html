@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<head>
+  <meta charset="UTF-8">
+  <title>Лешко матрешко</title>
+  <link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body class="rooms-page">
+<header class="header">
+    <img src="./assets/logo.png" class="logo">
+    <ul class="menu">
+        <li class="menu-item">Почему мы?</li>
+        <li class="menu-item">Номера</li>
+        <li class="menu-item">Отзывы</li>
+        <li class="menu-item">Как нас найти</li>
+    </ul>
+    <div class="clearfix"></div>
+</header>
+<div class="rooms-title">
+    <h1 class="title-text">Наши номера</h1>
+    <div class="select-wrapper">
+        <select class="select">
+            <option class="option">↑ По площади</option>
+            <option class="option">↓ По цене</option>
+            <option class="option">↑ По длительности пребывания</option>
+        </select>
+        <img class="select-img" src="./assets/Vectordown.png"/>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<main class="main">
+    <div class="column">
+        <form>
+             <div class="price">
+                <p class="headline" >Цена за сутки, ₽</p>
+                <input class="input" type="text"  value="от 100">
+                <input class="input" type="text"  value="до 600">
+            </div>
+            <div class="area">
+                <p class="headline">Площадь</p>
+                <input class="checkbox" type="checkbox" checked id="1">
+                <label class="label" for="1">0,63 м<sup>2</sup></label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="2">
+                <label class="label" for="2">0,90 м<sup>2</sup></label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="3">
+                <label class="label" for="3">1,13 м<sup>2</sup></label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="4">
+                <label class="label" for="4">1,56 м<sup>2</sup></label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="5">
+                <label class="label" for="5">2,56 м<sup>2</sup></label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="6">
+                <label class="label" for="6">2,88 м<sup>2</sup></label>
+            </div> 
+            <div class="equipment">
+                <p class="headline">Оснащение номера</p>
+                <input class="checkbox" type="checkbox" checked id="7">
+                <label class="label" for="7">Пустой номер</label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="8">
+                <label class="label" for="8">Лежак</label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="9">
+                <label class="label" for="9">Когтеточка<label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="10">
+                <label class="label" for="10">Игровой-комплекс</label>
+                <br>
+                <input class="checkbox" type="checkbox" checked id="11">
+                <label class="label" for="11">Домик</label>
+            </div>
+           
+            <button class="drop">
+                <span class="drop-text">Сбросить фильтр</span>
+            </button>       
+        </form>
+    </div>
+    <div class="rooms">
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/econom.png">
+            <h3 class="rooms-inner-text">Эконом</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 90х70х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 0,63 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/none.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">100₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/ecomonplus.png">
+            <h3 class="rooms-inner-text">Эконом плюс</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 90х100х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 0,90 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">200₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/komfort.png">
+            <h3 class="rooms-inner-text">Комфорт</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 100х125х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 1,13 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                    <img class="icon-rooms2" src="./assets/klubok.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">250₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/syout.png">
+            <h3 class="rooms-inner-text">Сьют</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 125х125х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 1,56 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                    <img class="icon-rooms2" src="./assets/klubok.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">350₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/luks.png">
+            <h3 class="rooms-inner-text">Люкс</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 160х160х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 2,56 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                    <img class="icon-rooms2" src="./assets/klubok.png">
+                    <img class="icon-rooms3" src="./assets/domik.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">500₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img1" src="./assets/superlucks.png">
+            <h3 class="rooms-inner-text">Люкс</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 180х160х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 2,88 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                    <img class="icon-rooms2" src="./assets/klubok.png">
+                    <img class="icon-rooms3" src="./assets/domik.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">600₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/ecomonplus.png">
+            <h3 class="rooms-inner-text">Эконом плюс</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 90х100х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 0,90 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">200₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+        <div class="rooms-inner">
+            <img class="rooms-inner-img" src="./assets/komfort.png">
+            <h3 class="rooms-inner-text">Комфорт</h3>
+            <ul class="rooms-inner-ul">
+                <li class="rooms-inner-li"><span class="li-text">Размеры (ШхГхВ) - 100х125х180 см</span></li>
+                <li class="rooms-inner-li"><span class="li-text">Площадь - 1,13 м2</span></li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Оснащение номера</span> 
+                    <img class="icon-rooms" src="./assets/lotok.png"> 
+                    <img class="icon-rooms1" src="./assets/kogtetochka.png">
+                    <img class="icon-rooms2" src="./assets/klubok.png">
+                </li>
+                <li class="rooms-inner-li">
+                    <span class="li-text">Цена за сутки:</span> 
+                    <span class="price">250₽</span>
+                </li>
+            </ul>
+            <button class="button-inner">
+                <span class="button-span">Забронировать</span>
+                <img class="bitton-img" src="assets/logo2.png">
+                <div class="clearfix"></div>
+            </button>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</main>
+</body>
