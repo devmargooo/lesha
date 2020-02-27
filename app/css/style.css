@@ -425,6 +425,7 @@
 }
 .rooms-title {
 	padding: 70px 80px 20px;
+	position: relative;
 }
 .title-text {
 	font-family: Rubik;
@@ -451,6 +452,42 @@
 	line-height: 17px;
 	width: 175px;
 	padding-left: 15px;
+	z-index: 1;
+}
+
+.select1 {
+	min-height: 130px;
+	box-shadow: rgba(120, 120, 120, 0.5) 0px 0px 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	width: 175px;
+	padding-left: 15px;
+	overflow: hidden;
+	padding-top: 15px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: 1;
+}
+.option {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	margin-top: 10px;
+}
+.option:nth-child(1) {
+	margin-top: 0;
+
 }
 .select-wrapper {
 	float: right;
@@ -460,6 +497,12 @@
 	position: absolute;
 	top: 15px;
 	right: 15px;
+}
+.select-img1 {
+	position: absolute;
+	top: 20px;
+	right: 15px;
+	z-index: 2;
 }
 .column {
 	min-height: 625px;
@@ -532,6 +575,24 @@
     font-size: 16px;
     top: 4px;
 }
+.apply {
+	display: block;
+	width: 170px;
+	height: 40px;
+	margin-top: 30px;
+	box-sizing: border-box;	
+	border-radius: 25px ;
+	background-color:  #FAC663;
+}
+.apply-text {
+	font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 0;
+
+}
 
 .drop {
 	display: block;
@@ -552,6 +613,25 @@
 	padding: 15px 0;
 }
 
+.drop1 {
+	display: block;
+	width: 170px;
+	height: 40px;
+	margin-top: 10px;
+	box-sizing: border-box;	
+	border-radius: 25px ;
+	border: 2px solid #FAC663;
+}
+
+.drop1-text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	padding: 15px 0;
+}
+
 .rooms-page .rooms {
 	margin-top: 20px;
 	float: right;
@@ -559,10 +639,10 @@
 	padding-right: 80px;
 }
 
-/* .rooms-page .main {
-	max-width: 1500px;
-	margin: 0 auto;
-} */
+ .rooms-page .main {
+	padding-top: 5px;
+	
+} 
 
 .rooms-page .rooms-inner {
 	width: 270px;
@@ -640,6 +720,19 @@
     left: 200px;
 }
 
+.asist {
+	position: absolute;
+	top: 245px;
+	left: 100px;
+}
+
+.asist1 {
+	position: absolute;
+	top: 245px;
+	left: 90px;
+}
+
+
 
 .price {
 	font-family: Lato;
@@ -665,4 +758,132 @@
 	line-height: 17px;
 }
 
+.action {
+	width: 1170px;
+	height: 380px;
+	background-image: url("../assets/action.png");
+	margin: 0 auto;
+	margin-top: 100px;
+	box-sizing: border-box;
+}
 
+.action-text {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 43px;
+	padding-left: 270px;
+	padding-top: 80px;
+	margin: 0;	
+}
+
+.action-text1 {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 56px;
+	line-height: 66px;
+	padding-left: 270px;
+	margin: 0;
+}
+
+.paragraph {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 140%;
+	padding-left: 270px;
+	padding-right: 640px;
+
+}
+.rooms-page .button {
+	margin-left: 270px;
+}
+.rooms-page .button .button-text {
+	padding-left: 20px;
+}
+
+.super-lucks {
+	position: relative;
+	padding: 80px 80px;
+}
+.sl-img-paw {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.sl-main {
+	width: 1000px;
+	min-height: 450px;
+	
+
+}
+.super-lucks-img {
+	display: block;
+	margin-bottom: 30px;
+}
+.img-slcat {
+	position: absolute;
+	top: 80px; 
+	left: 180px;
+	
+}
+.feature {
+	position: absolute;
+	top: 40px;
+	left: 750px;
+	
+}
+.feature-text {
+	font-family: Rubik;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 43px;
+}
+.feature-paragraph {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+}
+.feature-ul {
+	list-style: none;
+	padding: 0;
+}
+.feature-list {
+	margin-bottom: 10px;
+}
+.list-text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	margin-left: 5px;
+}
+.feature .button-inner {
+	margin-left: 0;
+	width: 210px;
+}
+.feature .button-span {
+	padding-left: 20px;
+}
+.feature-span {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+.index .numbers .rooms {
+	padding: 0;
+}
+.index .numbers .rooms .rooms-img{
+	position: absolute;
+    left: 0;
+    top: 10px; 
+} 
